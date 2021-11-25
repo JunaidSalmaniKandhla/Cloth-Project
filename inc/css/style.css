@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Charm', cursive;
+}
+p {
+	text-align: justify;
+}
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+.card {
+	margin: 5px;
+}
+.top {
+	width: 100%;
+	background-color: #2f2f2f;
+}
+.top ul li {
+	list-style: none;
+	float: left;
+	color: white;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.navbar-brand {
+	font-family: 'Charm', cursive;
+}
+
+div#demo {
+    max-height: 450px;
+}
+.carousel-inner {
+	max-height: 450px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 200px;
+    left: 15%;
+    z-index: 10;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.carousel-caption h3 {
+  font-size: 3vw;
+}
+.carousel-indicators li {
+	background-color: #343a40;
+}
+  .rotateInDownLeft {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  
+  .rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rotateInDownRight {
+  0% {
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes rotateInDownRight {
+  0% {
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  } 
+  .mobileicon a:first-child {
+  	position: fixed;
+  	top: 220px;
+  	right: 0px;
+  }
+  .fa-4x:last-child {
+  	position: fixed;
+  	top: 300px;
+  	right: 0px;
+  }  
+.welcome img {
+	max-height:422px;
+	border-radius: 10%;
+}
+.welcome {
+	margin-top: 60px;
+}
+.welcome a {
+	color: white
+}
+.welabout {
+	margin-top: 60px;
+}
+footer {
+	background-color: #2e2e2e;
+	color: white;
+}
+.part {
+	padding-top: 50px;
+}
+.foot-main {
+	margin-top: 20px;
+	padding-bottom: 60px;
+}
+.foot-main p {
+	color: #878787;
+}
+.foot-main .foot-2 p {
+	border-bottom: 1px solid #878787;
+	padding-bottom: 10px;
+}
+.foot-main .foot-2 p:last-child {
+	border-bottom: none;
+}
+.foot-main input[type=email] {
+	border: 1px solid transparent;
+    padding: .375rem .75rem;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.part .btn {
+	border-radius: 0px;
+	margin: 0px;
+	margin-top: 45px;
+}
+/*.foot-main button.btn.btn-primary {
+    margin-left: -4px;
+    margin-top: -4px;
+}*/
+.foot3 p {
+	margin-bottom: 0px;
+	padding-bottom: 50px;
+	color: #878787;
+}
+@media only screen 
+  and (device-width: 412px) 
+  and (device-height: 823px) {
+  	.carousel-caption {
+    top: 0px;
+}
+.carousel-caption h3 {
+	font-size: 20px;
+}
+}
+@media only screen and (max-device-width: 480px) {
+.navbar-dark .navbar-brand { font-size: 16px;
+}
+.welcome h1 {
+	font-size: 25px;
+	margin-top: 10px;
+}
+.carousel-caption {
+    top: 0px;
+}
+.carousel-caption h3 {
+	font-size: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+	.carousel-caption {
+    top: 50px!important;
+	}
